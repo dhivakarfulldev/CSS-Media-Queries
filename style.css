@@ -5,56 +5,17 @@
 }
 
 .parent{
-    border: 2px solid black;
-    height: 100vh;
+   
     padding: 10px;
     display: flex;
     gap: 10px;
 }
 
 .child{
-    border: 1px solid black;
-    height: 200px;
-   
+    border: 2px solid black;  
 }
-
-@media(max-width:1280px){
-    .child{
-        font-size: 15px;
-    }
-}
-@media(max-width:1203px){
-    .child{
-        font-size: 14px;
-    }
-}
-@media(max-width:1043px){
+@media(max-width:800px){
     .parent{
-        display: flex;
         flex-direction: column;
-        
-    }
-    .child{
-        font-size: 16px;
-    }
-}
-@media(max-width:445px){
-    .child{
-        font-size: 15px;
-    }
-}
-@media(max-width:419px){
-    .child{
-        font-size: 14px;
-    }
-}
-@media(max-width:375px){
-    .child{
-        font-size: 13px;
-    }
-}
-@media(max-width:324px){
-    .child{
-        font-size: 12px;
     }
 }
